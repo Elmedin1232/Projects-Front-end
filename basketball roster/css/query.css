@@ -1,0 +1,57 @@
+@media (max-width: 43em) {
+  .srname {
+    margin-left: 0;
+  }
+
+  .container .position {
+    width: 32rem;
+  }
+}
+
+@media (max-width: 29em) {
+  .container .table-roster {
+    width: 40%;
+  }
+
+  .table-roster th,
+  .table-roster td {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 24em) {
+  .container {
+    max-width: 36rem;
+    margin: 10rem auto;
+  }
+
+  .container h1 {
+    font-size: 2.4rem;
+    margin-top: 1.6rem;
+  }
+
+  .text-roster {
+    padding: 0 3.2rem;
+  }
+
+  .container input {
+    width: 28rem;
+  }
+
+  .surname {
+    margin-left: 0;
+  }
+
+  .container .position {
+    width: 97.5%;
+  }
+
+  .add-btn .submit-btn {
+    width: 97.5%;
+  }
+
+  .table-roster th,
+  .table-roster td {
+    font-size: 1.4rem;
+  }
+}

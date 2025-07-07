@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/query.css" rel="stylesheet" />
+
+    <title>Roster App</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Basketball Roster</h1>
+      <p class="text-roster">
+        Please, add your players for the roster. Minimum number of players for
+        qualification is 8 and max is 12. Thank you!
+      </p>
+      <form class="form-roster">
+        <input
+          type="text"
+          class="name"
+          maxlength="16"
+          placeholder="Name"
+          pattern="[A-Za-z\s-]+"
+          required
+        />
+        <input
+          type="text"
+          class="surname"
+          maxlength="22"
+          placeholder="Surname"
+          pattern="[A-Za-z\s-]+"
+          required
+        />
+        <select class="position" required>
+          <option value="Point Guard">Point Guard</option>
+          <option value="Shooting Guard">Shooting Guard</option>
+          <option value="Small Forward">Small Forward</option>
+          <option value="Power Forward">Power Forward</option>
+          <option value="Center">Center</option>
+        </select>
+
+        <button class="add-btn" type="submit">Add player</button>
+      </form>
+      <!---------------- TABLE ------------------>
+      <table class="table-roster">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Position</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody class="table-body">
+          <!--<tr>
+           <td></td>
+          </tr-->
+        </tbody>
+      </table>
+      <button class="submit-btn">Submit roster</button>
+    </div>
+    <footer class="footer">
+      Copyright &copy; by B. Roster. All rights reserved.
+    </footer>
+    <script defer src="script.js"></script>
+  </body>
+</html>
