@@ -1,0 +1,50 @@
+@media (max-width: 34em) {
+  .blog-div h1 {
+    font-size: 2.4rem;
+    padding: 2.4rem 0;
+  }
+
+  .span-date {
+    font-size: 1.6rem;
+  }
+
+  .travel-div img {
+    width: 70%;
+    height: 70%;
+  }
+
+  .travel-text-intro {
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }
+
+  .travel-title {
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .travel-text {
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 27em) {
+  .span-date {
+    font-size: 1.4rem;
+  }
+  .travel-div {
+    padding: 3.2rem;
+  }
+
+  .travel-title {
+    margin-bottom: 0.8rem;
+    font-size: 1.4rem;
+    line-height: 1.2;
+  }
+
+  .travel-text {
+    font-size: 1.2rem;
+    line-height: 1.2;
+  }
+}

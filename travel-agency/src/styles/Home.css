@@ -1,0 +1,237 @@
+.home-hero {
+  height: 80vh;
+  background-size: cover;
+  background-image: url("../imgs/main-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.home-hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.text-container h3 {
+  font-size: 2.4rem;
+}
+
+.text-container p {
+  font-size: 1.6rem;
+}
+
+.hero-content h2 {
+  color: #ffffff;
+  font-size: 4.2rem;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding-top: 22rem;
+}
+
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90%;
+  margin: 0 auto;
+}
+
+.grid-3-cols.tour-basics {
+  position: absolute;
+  bottom: -27%;
+  left: 47.5%;
+  color: #fff;
+  background-color: #ff9031;
+  padding: 3.2rem 2.4rem;
+  border-radius: 2.4rem;
+  transform: translateX(-50%);
+}
+
+.icon {
+  width: 3.2rem;
+  height: 3.2rem;
+  justify-self: end;
+  color: #3168a3;
+  margin-bottom: 1.6rem;
+}
+
+.text-container h3 {
+  margin-bottom: 0.8rem;
+}
+
+/********POPULAR TOURS*********/
+.popular-tours {
+  padding: 4rem 2rem;
+  margin-top: 40rem;
+}
+
+.popular-tours h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 3.6rem;
+}
+
+.tours-grid {
+  max-width: 120rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+}
+
+.tour-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.tour-card:hover {
+  transform: translateY(-5px);
+}
+
+.tour-card img {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.tour-info {
+  padding: 1.5rem;
+}
+
+.tour-info h3 {
+  margin: 0 0 1rem 0;
+  color: #333;
+}
+
+.tour-details {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.tour-details p {
+  margin: 0.5rem 0;
+  color: #666;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.tour-details svg {
+  color: #4a90e2;
+  font-size: 2.4rem;
+}
+
+.book-now {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #4a99e2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.book-now:hover {
+  background-color: #357abd;
+}
+
+.home-link {
+  margin-top: 20rem;
+  display: inline-block;
+  padding-bottom: 6.4rem;
+  font-size: 2.4rem;
+  text-decoration: none;
+  color: #ff9031;
+  transition: color 0.3s ease;
+}
+
+.home-link:hover {
+  color: #be6c24;
+}
+
+/*****REVIEWS*******/
+.reviews-container {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.reviews-container h2 {
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.review-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 2rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 6.4rem;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background: #4a99e2;
+  border-radius: 9px;
+}
+
+.review-text,
+.review-author {
+  color: #fff;
+}
+
+.review img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.review .review-text {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.review-author {
+  font-weight: bold;
+  margin-top: auto;
+  font-size: 1.6rem;
+}
+
+.review-rating {
+  color: #f5a623;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+}
+
+@media (max-width: 48em) {
+  .tours-grid {
+    grid-template-columns: 1fr;
+  }
+}

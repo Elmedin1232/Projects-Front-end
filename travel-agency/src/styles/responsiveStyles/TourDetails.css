@@ -1,0 +1,123 @@
+@media (max-width: 48em) {
+  .tour-included h2,
+  .tour-itinerary h2 {
+    margin-top: 1.6rem;
+  }
+}
+
+@media (max-width: 34em) {
+
+  .tour-header h1 {
+    font-size: 2.8rem;
+  }
+
+  .tour-description h2 {
+    font-size: 1.8rem;
+  }
+
+  .tour-description p {
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }
+
+  .tour-highlights h2,
+  .tour-included h2,
+  .tour-itinerary h2 {
+    font-size: 1.8rem;
+  }
+
+  .tour-content ul li {
+    font-size: 1.4rem;
+  }
+
+  .day-content h3 {
+    font-size: 1.6rem;
+  }
+
+  .day-content p {
+    font-size: 1.4rem;
+  }
+
+  .day-number {
+    width: 5.6rem;
+    height: 5.6rem;
+    font-size: 1.4rem;
+  }
+
+  .book-button {
+    font-size: 1.4rem;
+    padding: 0.8rem 1.6rem;
+  }
+}
+
+@media (max-width: 27em) {
+  .tour-header {
+    padding: 1.8rem 0;
+  }
+
+  .tour-header h1 {
+    font-size: 2.4rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .tour-meta span {
+    font-size: 1.2rem;
+  }
+
+  .tour-description h2 {
+    margin-bottom: 1.4rem;
+  }
+
+  .tour-description p {
+    font-size: 1.2rem;
+    line-height: 1.2;
+  }
+
+  .tour-highlights h2,
+  .tour-included h2,
+  .tour-itinerary h2 {
+    font-size: 1.6rem;
+  }
+
+  .tour-content ul li {
+    font-size: 1.2rem;
+  }
+
+  .day-content h3 {
+    font-size: 1.4rem;
+  }
+
+  .day-content p {
+    font-size: 1.2rem;
+    line-height: 1.2;
+  }
+
+  .day-number {
+    width: 4.2rem;
+    height: 4.2rem;
+    font-size: 1.2rem;
+  }
+
+  .book-button {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 24.5em) {
+  .tour-header h1 {
+    font-size: 2rem;
+  }
+
+  .tour-meta span {
+    font-size: 1rem;
+  }
+
+  .tour-description h2 {
+    font-size: 1.4rem;
+  }
+  .tour-highlights h2,
+  .tour-included h2,
+  .tour-itinerary h2 {
+    font-size: 1.4rem;
+  }
+}

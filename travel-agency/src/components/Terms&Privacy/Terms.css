@@ -1,0 +1,46 @@
+.terms-conditions-div h1 {
+  background-color: #ff7601;
+  padding: 3.2rem 0;
+  color: #fff;
+  font-size: 3.2rem;
+}
+
+.terms-conditions-section {
+  text-align: left;
+  padding: 4.8rem 6.4rem;
+}
+
+.title {
+  text-transform: uppercase;
+  margin-bottom: 3.2rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+.subtitle {
+  margin-bottom: 1.2rem;
+  margin-top: 3.2rem;
+  font-size: 2.4rem;
+  color: #333;
+}
+
+.text {
+  line-height: 1.6;
+  font-size: 1.6rem;
+  color: #333;
+}
+
+.list-terms {
+  margin-left: 2.4rem;
+  margin-top: 1.8rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.list-terms li {
+  line-height: 1.6;
+  font-size: 1.6rem;
+  color: #333;
+}

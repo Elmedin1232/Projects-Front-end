@@ -1,0 +1,120 @@
+@media (max-width: 64em) {
+  .team-grid section p:nth-child(3) {
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 53.5em) {
+  .section-about p {
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }
+
+  .team-grid p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 34em) {
+  .header-about h1 {
+    padding: 2.4rem 0;
+    font-size: 2.4rem;
+  }
+
+  .grid-2-cols-about {
+    padding: 3.2rem;
+    gap: 3.2rem;
+  }
+
+  .section-about p {
+    font-size: 1.2rem;
+    line-height: 1.2;
+  }
+
+  .section-staff {
+    padding: 0 3.2rem;
+  }
+
+  .section-staff h3 {
+    font-size: 2rem;
+  }
+
+  .list-travel {
+    gap: 1rem;
+  }
+
+  .list-travel li {
+    font-size: 1.2rem;
+  }
+
+  .team-about {
+    padding: 3.2rem;
+  }
+
+  .team-about h2 {
+    font-size: 2rem;
+  }
+
+  .team-grid {
+    gap: 2.4rem;
+  }
+
+  .team-grid section h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .team-grid section p {
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 27em) {
+  .section-about {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+
+  .section-about p {
+    font-size: 1rem;
+  }
+
+  .section-staff h3 {
+    font-size: 1.6rem;
+  }
+
+  .team-about {
+    padding: 2rem;
+  }
+
+  .team-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .team-grid section h3 {
+    font-size: 1.2rem;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 24em) {
+  .header-about h1 {
+    font-size: 2.4rem;
+    padding: 2.4rem 0;
+  }
+
+  .section-about {
+    grid-template-columns: 1fr;
+    padding: 3.2rem;
+    gap: 1.2rem;
+  }
+
+  .section-staff h3 {
+    margin-bottom: 1.2rem;
+  }
+
+  .list-travel {
+    line-height: 1.4;
+  }
+}

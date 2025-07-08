@@ -1,0 +1,47 @@
+.privacy-policy-main-heading {
+  padding: 3.2rem 0;
+  color: #fff;
+  background-color: #ff7601;
+  font-size: 3.2rem;
+}
+
+.privacy-policy-section {
+  text-align: left;
+  padding: 4.8rem 6.4rem;
+}
+
+.subheading-date {
+  margin-bottom: 3.2rem;
+  font-size: 2.4rem;
+  color: #333;
+}
+
+.privacy-policy-subheading {
+  margin-top: 3.2rem;
+  margin-bottom: 1.2rem;
+  font-size: 2.4rem;
+  color: #333;
+}
+
+.text {
+  margin-bottom: 1.6rem;
+  font-size: 1.6rem;
+  color: #333;
+}
+
+.list-privacy-policy {
+  margin-left: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.list-privacy-policy li {
+  line-height: 1.6;
+  font-size: 1.6rem;
+  color: #333;
+}
+
+.text-margin {
+  margin-top: 1.8rem;
+}

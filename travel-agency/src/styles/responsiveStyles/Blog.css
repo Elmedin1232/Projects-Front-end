@@ -1,0 +1,51 @@
+@media (max-width: 64em) {
+  .travel-link {
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 53em) {
+  .travel-link {
+    margin-top: 2.4rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .blog-text {
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 34em) {
+  .blog-div h1 {
+    padding: 2.4rem 0;
+    font-size: 2.4rem;
+  }
+
+  .blog-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 27em) {
+  .blog-grid {
+    padding: 3.2rem;
+  }
+
+  .travel-link {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    margin-bottom: 0.8rem;
+    margin-top: 1.6rem;
+  }
+
+  .blog-date {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .blog-text {
+    font-size: 1.2rem;
+    line-height: 1.2;
+  }
+}

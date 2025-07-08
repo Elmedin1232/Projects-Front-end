@@ -1,0 +1,181 @@
+@media (max-width: 64em) {
+  .home-hero {
+    height: 40vh;
+  }
+
+  .hero-content h2 {
+    font-size: 3.8rem;
+  }
+
+  .grid-3-cols {
+    width: 95%;
+  }
+
+  .grid-3-cols.tour-basics {
+    left: 48.5%;
+    padding: 3.2rem 1.8rem;
+  }
+
+  .text-container h3 {
+    font-size: 2rem;
+  }
+
+  .text-container p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 57em) {
+  .home-hero {
+    height: 30vh;
+  }
+
+  .text-container h3 {
+    font-size: 1.6rem;
+  }
+
+  .home-link {
+    padding-bottom: 3.2rem;
+  }
+
+  .hero-content h2 {
+    font-size: 3.2rem;
+    padding-top: 16rem;
+  }
+
+  .reviews-container h2 {
+    font-size: 2rem;
+  }
+
+  .icon {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+}
+
+@media (max-width: 53.5em) {
+  .home-hero {
+    height: 34vh;
+  }
+
+  .grid-3-cols {
+    left: 47.5% !important;
+  }
+
+  .review-text {
+    font-size: 1.4rem !important;
+    line-height: 1.4;
+  }
+
+  .review-author {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 34em) {
+  .home-hero {
+    height: 45vh;
+  }
+  .hero-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .grid-3-cols.tour-basics {
+    bottom: -48%;
+    left: 47.5% !important;
+    padding: 2.4rem;
+  }
+  .text-container h3 {
+    font-size: 1.4rem;
+  }
+
+  .home-link {
+    font-size: 2rem;
+  }
+
+  .reviews-container h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 27em) {
+  .home-hero {
+    height: 30vh;
+  }
+
+  .hero-content h2 {
+    padding-top: 12rem;
+    font-size: 1.4rem;
+  }
+
+  .tour-basics {
+    padding: 2.4rem !important;
+    text-align: left;
+    grid-template-columns: 1fr !important;
+  }
+
+  .grid-3-cols.tour-basics {
+    left: 45.5% !important;
+    bottom: -95% !important;
+    padding: 1.8rem 1rem;
+  }
+
+  .icon {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+
+  .text-container h3 {
+    font-size: 1.2rem;
+  }
+
+  .review-grid {
+    padding: 0 4.8rem;
+  }
+
+  .review-text {
+    font-size: 1.2rem !important;
+  }
+
+  .review-author {
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 24.5em) {
+  .hero-content h2 {
+    padding-top: 10rem;
+    line-height: 1.4;
+  }
+
+  .tour-basics {
+    padding: 2.4rem !important;
+    text-align: left;
+    grid-template-columns: 1fr !important;
+  }
+
+  .grid-3-cols.tour-basics {
+    bottom: -120% !important;
+    left: 45.5% !important;
+  }
+
+  .review-grid {
+    padding: 0 2.4rem;
+  }
+
+  .reviews-container {
+    padding: 4rem 0;
+  }
+}
+
+@media (max-width: 22em) {
+  .grid-3-cols.tour-basics {
+    left: 45% !important;
+    bottom: -92% !important;
+  }
+
+  .reviews-container {
+    padding: 4rem 0;
+  }
+}

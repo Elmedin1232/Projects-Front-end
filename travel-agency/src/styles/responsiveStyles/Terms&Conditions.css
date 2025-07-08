@@ -1,0 +1,63 @@
+@media (max-width: 34em) {
+  .terms-conditions-div h1 {
+    font-size: 2.4rem;
+    padding: 2.4rem 0;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .subtitle {
+    font-size: 2rem;
+  }
+
+  .text {
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }
+
+  .list-terms li {
+    font-size: 1.4rem;
+    line-height: 1.4;
+  }
+
+  .terms-conditions-section {
+    padding: 3.2rem 4.8rem;
+  }
+}
+
+@media (max-width: 27em) {
+  .terms-conditions-section {
+    padding: 3.2rem;
+  }
+
+  .subtitle {
+    font-size: 1.8rem;
+  }
+
+  .text {
+    font-size: 1.2rem !important;
+    line-height: 1.2;
+  }
+
+  .list-terms {
+    gap: 1rem;
+    margin-left: 1.8rem;
+  }
+
+  .list-terms li {
+    font-size: 1.2rem;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 24.5em) {
+  .title {
+    font-size: 1.4rem;
+  }
+
+  .subtitle {
+    font-size: 1.6rem;
+  }
+}

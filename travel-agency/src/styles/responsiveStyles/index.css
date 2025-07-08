@@ -1,0 +1,42 @@
+@media (max-width: 53.5em) {
+  .links-list a {
+    font-size: 1.6rem;
+  }
+
+  .links-list {
+    gap: 2.8rem;
+  }
+}
+
+@media (max-width: 34em) {
+  .header {
+    padding: 1.2rem 2.4rem;
+  }
+  .links-list a {
+    font-size: 1.4rem;
+  }
+
+  .links-list {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 27em) {
+  .header {
+    padding: 1.2rem 1.6rem;
+  }
+
+  .links-list {
+    gap: 1.2rem;
+  }
+
+  .links-list a {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 24em) {
+  .links-list a {
+    font-size: 1rem;
+  }
+}
