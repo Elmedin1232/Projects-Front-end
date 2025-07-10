@@ -72,7 +72,6 @@ npm install
 ```bash
 npm start
 ```
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
 ## Future Enhancements
 - User authentication system
