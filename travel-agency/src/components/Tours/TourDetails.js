@@ -610,7 +610,6 @@ function TourDetails() {
           </div>
         </section>
 
-        <div className="booking-section"></div>
       </div>
       <button className="book-button" onClick={handleBooking}>
         Book This Tour
