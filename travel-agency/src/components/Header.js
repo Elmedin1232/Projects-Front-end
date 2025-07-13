@@ -31,7 +31,6 @@ function Header() {
               <Link
                 to={link.url}
                 className={pathname === link.url ? "active" : ""}
-                onClick={() => setActiveLink(link.text)}
               >
                 {link.text}
               </Link>
