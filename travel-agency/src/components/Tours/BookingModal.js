@@ -82,7 +82,7 @@ export function BookingModal({
   duration,
 }) {
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const [activeStartDate, setActiveStartDate] = useState(new Date(2025, 6, 1));
+  const [activeStartDate, setActiveStartDate] = useState(new Date(2025, 7, 1));
   const {
     formData,
     errors,
@@ -125,10 +125,10 @@ export function BookingModal({
 
       // Enable dates from July 15th, 2025
       if (year === 2025) {
-        if (month === 6) {
+       // if (month === 6) {
           // July
-          return day !== 15;
-        }
+      //    return day !== 15;
+      //  }
         if (month === 7 || month === 8) {
           // August, September
           return day !== 1 && day !== 15;
@@ -174,7 +174,7 @@ export function BookingModal({
                   value={formData.date}
                   tileDisabled={tileDisabled}
                   tileClassName={tileClassName}
-                  minDate={new Date(2025, 6, 15)}
+                  minDate={new Date(2025, 7, 1)}
                   maxDate={new Date(2025, 8, 30)}
                   activeStartDate={activeStartDate}
                   onActiveStartDateChange={handleActiveStartDateChange}
